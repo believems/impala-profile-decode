@@ -3,6 +3,7 @@ package impala_profile_decode
 import (
 	"bytes"
 	"compress/zlib"
+	"context"
 	"encoding/base64"
 	"fmt"
 	"github.com/apache/thrift/lib/go/thrift"
@@ -74,7 +75,7 @@ func decodeImpalaProfile(dataCompressed string) (string, string, error) {
 		Transport: transport,
 		Protocol:  protocol,
 	}
-	err = deserializer.Read(runtimeProfile, uncompressedBytes)
+	err = deserializer.Read(context.Background(), runtimeProfile, uncompressedBytes)
 	if err != nil {
 		return "", "", err
 	}
