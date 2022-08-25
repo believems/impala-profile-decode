@@ -1,0 +1,4 @@
+github.com/apache/thrift v0.13.1-0.20200603211036-eac4d0c79a5f h1:33BV5v3u8I6dA2dEoPuXWCsAaHHOJfPtdxZhAMQV4uo=
+github.com/apache/thrift v0.13.1-0.20200603211036-eac4d0c79a5f/go.mod h1:cp2SuWMxlEZw2r+iP2GNCdIi4C1qmUzdZFSVb+bacwQ=
+github.com/believems/impala-thrift v0.13.1 h1:dzwmsZqfvNOmiNMZOeRoZIzdYeh82qqbqy2ihCdrI7A=
+github.com/believems/impala-thrift v0.13.1/go.mod h1:wT9w8UaQGGijMOmoLoGWj1boe/UhQwX+tCENviR3i14=
